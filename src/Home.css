@@ -1,0 +1,46 @@
+.parent_component button {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  flex-shrink: 0;
+}
+.parent_component{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn_container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+@media screen and (max-width:767px) {
+   .btn_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+   }
+    .parent_component{
+    margin-top: 50%;
+    }
+    .header_main{
+        text-align: center;
+    }
+
+} 
+    
+
