@@ -22,7 +22,7 @@ function Admin() {
       return;
     }
 
-    await fetch("http://localhost:5000/questions", {
+    await fetch("https://mcq-backend-yggc.onrender.com/questions", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ question, options, answer })
@@ -41,7 +41,7 @@ function Admin() {
 
   if (!confirmClear) return;
 
-  await fetch("http://localhost:5000/questions", {
+  await fetch("https://mcq-backend-yggc.onrender.com/questions", {
     method: "DELETE"
   });
 

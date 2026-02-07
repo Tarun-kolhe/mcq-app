@@ -10,7 +10,7 @@ function Quiz() {
   const [score, setScore] = useState(0);
 
   useEffect(() => {
-    fetch("http://localhost:5000/questions")
+    fetch("https://mcq-backend-yggc.onrender.com/questions")
       .then((res) => res.json())
       .then((data) => setQuestions(data))
       .catch((err) => console.error("API error:", err));
