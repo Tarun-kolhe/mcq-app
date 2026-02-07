@@ -83,10 +83,12 @@ Screenshots of:
 - Test screen
 - Result & accuracy view
 - Mobile app UI
-
-*(Added in project documentation)*
-
----
+<img width="306" height="658" alt="image" src="https://github.com/user-attachments/assets/32361660-0b18-4b33-a348-cd8c027d99d5" />
+<img width="311" height="653" alt="image" src="https://github.com/user-attachments/assets/a9573230-4383-4042-aa66-571a0c2db44d" />
+<img width="316" height="661" alt="image" src="https://github.com/user-attachments/assets/0f9a5626-7b10-474d-add5-057fc021be4a" />
+<img width="320" height="673" alt="image" src="https://github.com/user-attachments/assets/232cf842-bc28-4f06-96af-2679ff0f6644" />
+<img width="320" height="672" alt="image" src="https://github.com/user-attachments/assets/1de4cdc4-b582-4f8e-9805-d9291c1f79c4" />
+<img width="316" height="669" alt="image" src="https://github.com/user-attachments/assets/c26bfaf2-573a-433b-96a9-dd2fb075dcd3" />
 
 ##  Future Enhancements
 
